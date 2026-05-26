@@ -1,0 +1,13 @@
+anthropic
+polygon-api-client
+yfinance
+alpaca-py
+pandas
+numpy
+chromadb
+sentence-transformers
+python-dotenv
+tqdm
+matplotlib
+backtesting  # simple & excellent for stocks/options/crypto
+python-dotenv

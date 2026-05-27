@@ -1,0 +1,36 @@
+# Trading Brain — Python dependencies
+# Pin major versions to prevent surprise breakage on reinstall.
+# Update pins intentionally after testing, not automatically.
+
+# ── Anthropic / LLM ───────────────────────────────────────────────────────────
+anthropic>=0.40,<2.0
+
+# ── Market data ───────────────────────────────────────────────────────────────
+polygon-api-client>=1.12,<2.0
+yfinance>=0.2.40,<1.0
+
+# ── Broker ────────────────────────────────────────────────────────────────────
+alpaca-py>=0.20,<1.0
+
+# ── Data / numerics ───────────────────────────────────────────────────────────
+pandas>=2.0,<3.0
+numpy>=1.26,<3.0
+
+# ── RAG memory ────────────────────────────────────────────────────────────────
+chromadb>=0.5,<1.0
+sentence-transformers>=3.0,<4.0
+
+# ── Backtesting ───────────────────────────────────────────────────────────────
+backtesting>=0.3.3,<1.0
+
+# ── Web / notifications ───────────────────────────────────────────────────────
+requests>=2.31,<3.0
+
+# ── Dashboard ────────────────────────────────────────────────────────────────
+streamlit>=1.35,<2.0
+plotly>=5.18,<6.0
+matplotlib>=3.8,<4.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0,<2.0
+tqdm>=4.66,<5.0

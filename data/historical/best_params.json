@@ -1,0 +1,597 @@
+{
+  "generated": "2026-05-26T18:12:18.218722",
+  "strategies": {
+    "SMA_Crossover": {
+      "AAPL": {
+        "n1": 10,
+        "n2": 50,
+        "_oos_calmar": -0.575,
+        "_oos_sharpe": -3.567,
+        "_oos_return": -87.75
+      },
+      "TSLA": {
+        "n1": 10,
+        "n2": 40,
+        "_oos_calmar": -0.643,
+        "_oos_sharpe": -1.068,
+        "_oos_return": -94.08
+      },
+      "NVDA": {
+        "n1": 10,
+        "n2": 40,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMD": {
+        "n1": 10,
+        "n2": 40,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "GOOGL": {
+        "n1": 10,
+        "n2": 70,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMZN": {
+        "n1": 10,
+        "n2": 70,
+        "_oos_calmar": -0.546,
+        "_oos_sharpe": -2.549,
+        "_oos_return": -84.57
+      },
+      "MSFT": {
+        "n1": 20,
+        "n2": 70,
+        "_oos_calmar": -0.456,
+        "_oos_sharpe": -2.189,
+        "_oos_return": -68.8
+      },
+      "META": {
+        "n1": 10,
+        "n2": 40,
+        "_oos_calmar": -0.57,
+        "_oos_sharpe": -1.758,
+        "_oos_return": -87.78
+      }
+    },
+    "RSI_MeanReversion": {
+      "AAPL": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.368,
+        "_oos_sharpe": -0.98,
+        "_oos_return": -38.35
+      },
+      "TSLA": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.352,
+        "_oos_sharpe": -0.822,
+        "_oos_return": -55.16
+      },
+      "AMD": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.48,
+        "_oos_sharpe": -1.796,
+        "_oos_return": -76.23
+      },
+      "GOOGL": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.45,
+        "_oos_sharpe": -1.836,
+        "_oos_return": -71.47
+      },
+      "AMZN": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.217,
+        "_oos_sharpe": -0.729,
+        "_oos_return": -9.13
+      },
+      "MSFT": {
+        "rsi_period": 14,
+        "oversold": 30,
+        "overbought": 75,
+        "_oos_calmar": -0.044,
+        "_oos_sharpe": -0.096,
+        "_oos_return": -3.1
+      },
+      "META": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75,
+        "_oos_calmar": -0.039,
+        "_oos_sharpe": -0.084,
+        "_oos_return": -0.68
+      }
+    },
+    "MACD_Momentum": {
+      "AAPL": {
+        "fast": 12,
+        "slow": 26,
+        "sig": 9,
+        "_oos_calmar": -0.384,
+        "_oos_sharpe": -1.174,
+        "_oos_return": -54.06
+      },
+      "TSLA": {
+        "fast": 8,
+        "slow": 21,
+        "sig": 9,
+        "_oos_calmar": -0.49,
+        "_oos_sharpe": -1.139,
+        "_oos_return": -82.73
+      },
+      "NVDA": {
+        "fast": 12,
+        "slow": 26,
+        "sig": 9,
+        "_oos_calmar": -0.638,
+        "_oos_sharpe": -2.491,
+        "_oos_return": -93.71
+      },
+      "AMD": {
+        "fast": 12,
+        "slow": 21,
+        "sig": 9,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "GOOGL": {
+        "fast": 12,
+        "slow": 21,
+        "sig": 9,
+        "_oos_calmar": -0.519,
+        "_oos_sharpe": -2.263,
+        "_oos_return": -81.13
+      },
+      "AMZN": {
+        "fast": 8,
+        "slow": 26,
+        "sig": 9,
+        "_oos_calmar": -0.467,
+        "_oos_sharpe": -1.63,
+        "_oos_return": -71.97
+      },
+      "MSFT": {
+        "fast": 12,
+        "slow": 26,
+        "sig": 9,
+        "_oos_calmar": -0.295,
+        "_oos_sharpe": -0.815,
+        "_oos_return": -41.2
+      },
+      "META": {
+        "fast": 12,
+        "slow": 21,
+        "sig": 9,
+        "_oos_calmar": -0.444,
+        "_oos_sharpe": -1.326,
+        "_oos_return": -71.66
+      }
+    },
+    "BB_Reversion": {
+      "AAPL": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.425,
+        "_oos_sharpe": -1.714,
+        "_oos_return": -61.41
+      },
+      "TSLA": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.415,
+        "_oos_sharpe": -1.061,
+        "_oos_return": -71.32
+      },
+      "NVDA": {
+        "period": 25,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.56,
+        "_oos_sharpe": -2.606,
+        "_oos_return": -87.95
+      },
+      "AMD": {
+        "period": 20,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.598,
+        "_oos_sharpe": -2.511,
+        "_oos_return": -90.78
+      },
+      "GOOGL": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.512,
+        "_oos_sharpe": -2.654,
+        "_oos_return": -80.31
+      },
+      "AMZN": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.439,
+        "_oos_sharpe": -1.694,
+        "_oos_return": -66.7
+      },
+      "MSFT": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.343,
+        "_oos_sharpe": -1.207,
+        "_oos_return": -48.33
+      },
+      "META": {
+        "period": 15,
+        "std_mult": 2.2,
+        "_oos_calmar": -0.437,
+        "_oos_sharpe": -1.532,
+        "_oos_return": -69.12
+      }
+    },
+    "EMA_Momentum": {
+      "AAPL": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": -0.519,
+        "_oos_sharpe": -2.193,
+        "_oos_return": -81.14
+      },
+      "TSLA": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": -0.522,
+        "_oos_sharpe": -0.041,
+        "_oos_return": -88.33
+      },
+      "NVDA": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMD": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "GOOGL": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMZN": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": -0.528,
+        "_oos_sharpe": -1.907,
+        "_oos_return": -82.54
+      },
+      "MSFT": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": -0.496,
+        "_oos_sharpe": -2.239,
+        "_oos_return": -77.38
+      },
+      "META": {
+        "f": 5,
+        "m": 18,
+        "s": 45,
+        "_oos_calmar": -0.542,
+        "_oos_sharpe": -1.098,
+        "_oos_return": -84.98
+      }
+    },
+    "Volume_Breakout": {
+      "AAPL": {
+        "breakout_period": 15,
+        "vol_mult": 1.3,
+        "_oos_calmar": -0.586,
+        "_oos_sharpe": -4.09,
+        "_oos_return": -89.23
+      },
+      "TSLA": {
+        "breakout_period": 15,
+        "vol_mult": 2.0,
+        "_oos_calmar": -0.689,
+        "_oos_sharpe": -3.405,
+        "_oos_return": -96.18
+      },
+      "NVDA": {
+        "breakout_period": 15,
+        "vol_mult": 1.3,
+        "_oos_calmar": -0.693,
+        "_oos_sharpe": -4.361,
+        "_oos_return": -96.38
+      },
+      "AMD": {
+        "breakout_period": 15,
+        "vol_mult": 1.5,
+        "_oos_calmar": -0.764,
+        "_oos_sharpe": -4.396,
+        "_oos_return": -98.47
+      },
+      "GOOGL": {
+        "breakout_period": 15,
+        "vol_mult": 1.3,
+        "_oos_calmar": -0.655,
+        "_oos_sharpe": -5.117,
+        "_oos_return": -94.54
+      },
+      "AMZN": {
+        "breakout_period": 15,
+        "vol_mult": 2.0,
+        "_oos_calmar": -0.612,
+        "_oos_sharpe": -4.0,
+        "_oos_return": -91.38
+      },
+      "MSFT": {
+        "breakout_period": 15,
+        "vol_mult": 1.3,
+        "_oos_calmar": -0.55,
+        "_oos_sharpe": -3.553,
+        "_oos_return": -85.2
+      },
+      "META": {
+        "breakout_period": 15,
+        "vol_mult": 1.3,
+        "_oos_calmar": -0.652,
+        "_oos_sharpe": -4.298,
+        "_oos_return": -94.26
+      }
+    },
+    "Trend_Pullback": {
+      "AAPL": {
+        "ema_fast": 15,
+        "ema_trend": 60,
+        "pullback_pct": 1,
+        "_oos_calmar": -0.562,
+        "_oos_sharpe": -3.237,
+        "_oos_return": -86.36
+      },
+      "TSLA": {
+        "ema_fast": 15,
+        "ema_trend": 45,
+        "pullback_pct": 1,
+        "_oos_calmar": -0.644,
+        "_oos_sharpe": -0.093,
+        "_oos_return": -95.04
+      },
+      "NVDA": {
+        "ema_fast": 15,
+        "ema_trend": 45,
+        "pullback_pct": 1,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMD": {
+        "ema_fast": 15,
+        "ema_trend": 45,
+        "pullback_pct": 1,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "GOOGL": {
+        "ema_fast": 25,
+        "ema_trend": 60,
+        "pullback_pct": 1,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "AMZN": {
+        "ema_fast": 15,
+        "ema_trend": 60,
+        "pullback_pct": 1,
+        "_oos_calmar": -0.55,
+        "_oos_sharpe": -2.508,
+        "_oos_return": -85.45
+      },
+      "MSFT": {
+        "ema_fast": 15,
+        "ema_trend": 60,
+        "pullback_pct": 3,
+        "_oos_calmar": -0.523,
+        "_oos_sharpe": -2.801,
+        "_oos_return": -81.22
+      },
+      "META": {
+        "ema_fast": 15,
+        "ema_trend": 45,
+        "pullback_pct": 1,
+        "_oos_calmar": -0.594,
+        "_oos_sharpe": -2.244,
+        "_oos_return": -90.13
+      }
+    },
+    "ROC_Momentum": {
+      "AAPL": {
+        "roc_period": 20,
+        "roc_thresh": 2,
+        "sma_filter": 120,
+        "_oos_calmar": -0.555,
+        "_oos_sharpe": -3.379,
+        "_oos_return": -85.53
+      },
+      "TSLA": {
+        "roc_period": 15,
+        "roc_thresh": 1,
+        "sma_filter": 80,
+        "_oos_calmar": -0.666,
+        "_oos_sharpe": -0.105,
+        "_oos_return": -95.93
+      },
+      "NVDA": {
+        "roc_period": 20,
+        "roc_thresh": 1,
+        "sma_filter": 80,
+        "_oos_calmar": -0.782,
+        "_oos_sharpe": -1.856,
+        "_oos_return": -98.84
+      },
+      "AMD": {
+        "roc_period": 15,
+        "roc_thresh": 1,
+        "sma_filter": 80,
+        "_oos_calmar": 0.0,
+        "_oos_sharpe": 0.0,
+        "_oos_return": -100.0
+      },
+      "GOOGL": {
+        "roc_period": 25,
+        "roc_thresh": 2,
+        "sma_filter": 80,
+        "_oos_calmar": -0.634,
+        "_oos_sharpe": -3.965,
+        "_oos_return": -93.37
+      },
+      "AMZN": {
+        "roc_period": 25,
+        "roc_thresh": 1,
+        "sma_filter": 120,
+        "_oos_calmar": -0.541,
+        "_oos_sharpe": -2.741,
+        "_oos_return": -83.99
+      },
+      "MSFT": {
+        "roc_period": 25,
+        "roc_thresh": 3,
+        "sma_filter": 80,
+        "_oos_calmar": -0.533,
+        "_oos_sharpe": -3.334,
+        "_oos_return": -82.33
+      },
+      "META": {
+        "roc_period": 25,
+        "roc_thresh": 1,
+        "sma_filter": 120,
+        "_oos_calmar": -0.501,
+        "_oos_sharpe": -2.187,
+        "_oos_return": -79.89
+      }
+    }
+  },
+  "best_by_ticker": {
+    "AAPL": {
+      "strategy": "RSI_MeanReversion",
+      "best_params": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75
+      },
+      "oos_calmar": -0.368
+    },
+    "TSLA": {
+      "strategy": "RSI_MeanReversion",
+      "best_params": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75
+      },
+      "oos_calmar": -0.352
+    },
+    "NVDA": {
+      "strategy": "SMA_Crossover",
+      "best_params": {
+        "n1": 10,
+        "n2": 40
+      },
+      "oos_calmar": 0.0
+    },
+    "AMD": {
+      "strategy": "SMA_Crossover",
+      "best_params": {
+        "n1": 10,
+        "n2": 40
+      },
+      "oos_calmar": 0.0
+    },
+    "GOOGL": {
+      "strategy": "SMA_Crossover",
+      "best_params": {
+        "n1": 10,
+        "n2": 70
+      },
+      "oos_calmar": 0.0
+    },
+    "AMZN": {
+      "strategy": "RSI_MeanReversion",
+      "best_params": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75
+      },
+      "oos_calmar": -0.217
+    },
+    "MSFT": {
+      "strategy": "RSI_MeanReversion",
+      "best_params": {
+        "rsi_period": 14,
+        "oversold": 30,
+        "overbought": 75
+      },
+      "oos_calmar": -0.044
+    },
+    "META": {
+      "strategy": "RSI_MeanReversion",
+      "best_params": {
+        "rsi_period": 14,
+        "oversold": 25,
+        "overbought": 75
+      },
+      "oos_calmar": -0.039
+    }
+  },
+  "regime_best_strategy": {
+    "Bull": "Volume_Breakout",
+    "Bear": "RSI_MeanReversion"
+  },
+  "regime_analysis": {
+    "Bull": {
+      "Volume_Breakout": 20.072,
+      "BB_Reversion": 4.683,
+      "RSI_MeanReversion": 3.538,
+      "EMA_Momentum": 2.466,
+      "Trend_Pullback": 0.517,
+      "MACD_Momentum": 0.231,
+      "SMA_Crossover": -0.308,
+      "ROC_Momentum": -0.392
+    },
+    "Bear": {
+      "RSI_MeanReversion": -1.662,
+      "BB_Reversion": -2.435,
+      "MACD_Momentum": -2.511,
+      "Volume_Breakout": -2.691,
+      "EMA_Momentum": -2.795,
+      "Trend_Pullback": -3.017
+    },
+    "Ranging": {}
+  }
+}

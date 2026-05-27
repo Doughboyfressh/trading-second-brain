@@ -1,0 +1,10 @@
+{
+  "state": "sleeping",
+  "run_count": 1,
+  "last_run": "2026-05-26 17:01",
+  "next_run": "2026-05-26 23:01",
+  "last_duration_s": 158.1,
+  "interval_hours": 6.0,
+  "last_error": "",
+  "pid": 25824
+}

@@ -1,0 +1,14 @@
+[2026-05-26 16:59:03] ====================================================================
+[2026-05-26 16:59:03]   Trading Brain — Auto-Trainer Daemon  STARTING
+[2026-05-26 16:59:03]   PID            : 25824
+[2026-05-26 16:59:03]   Train script   : c:\Users\Dough\Desktop\Trading Brain\train_strategies.py
+[2026-05-26 16:59:03]   Interval       : every 6.0 hours
+[2026-05-26 16:59:03]   Log dir        : c:\Users\Dough\Desktop\Trading Brain\logs
+[2026-05-26 16:59:03]   Status file    : auto_trainer_status.json
+[2026-05-26 16:59:03] ====================================================================
+[2026-05-26 16:59:03]   Ctrl+C or SIGTERM for clean shutdown after current run.
+[2026-05-26 16:59:03] 
+[2026-05-26 16:59:03] Run #1 starting → log: train_run_20260526_165903.log
+[2026-05-26 17:01:41] Run #1 COMPLETE — 2.6 min  (exit 0)
+[2026-05-26 17:01:41] Next run at 2026-05-26 23:01 (sleeping 6h)…
+[2026-05-26 17:01:41] 

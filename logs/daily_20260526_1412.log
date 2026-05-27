@@ -1,0 +1,442 @@
+Starting Trading Brain Daily Loop — 2026-05-26 14:12
+Log file: C:\Users\Dough\Desktop\Trading Brain\logs\daily_20260526_1412.log
+Watchlist (8 tickers): ['AAPL', 'TSLA', 'NVDA', 'AMD', 'GOOGL', 'MSFT', 'AMZN', 'META']
+==========================================================================================
+
+============================================================
+▶  OutcomeTracker → track_outcomes
+============================================================
+   OutcomeTracker: loading historical signals …
+   OutcomeTracker: 8 signals loaded from vault
+   Outcomes: 0 WIN · 0 LOSS · 8 OPEN · 0 NO_SIGNAL
+   Ledger: 8 new signals added, 0 outcomes updated, 8 total
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\08-Logs\OUTCOMES_2026-05-26.md
+   ✅ OutcomeTracker: lessons written to vault/08-Logs/OUTCOMES_2026-05-26.md
+   ✅ OutcomeTracker: ledger updated (8 total signals tracked)
+✅ OutcomeTracker → track_outcomes — done
+
+▶  DataScout → PREFETCH (parallel)
+============================================================
+Fetching AAPL...
+Fetching TSLA...
+Fetching NVDA...
+   Fetched 499 bars | close $426.01
+   Polygon OK for TSLA
+   Prefetched TSLA: 499 bars saved
+Fetching AMD...
+   Fetched 499 bars | close $308.82
+   Polygon OK for AAPL
+   Fetched 499 bars | close $215.33
+   Polygon OK for NVDA
+   Prefetched AAPL: 499 bars saved
+Fetching GOOGL...
+   Prefetched NVDA: 499 bars saved
+Fetching MSFT...
+   Fetched 499 bars | close $467.51
+   Polygon OK for AMD
+   Prefetched AMD: 499 bars saved
+Fetching AMZN...
+   Fetched 499 bars | close $382.97
+   Polygon OK for GOOGL
+   Prefetched GOOGL: 499 bars saved
+Fetching META...
+   Polygon failed (AMZN): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/AMZN/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for AMZN
+   Fetched 730 bars | close $265.29
+   yfinance OK for AMZN
+   Prefetched AMZN: 730 bars saved
+   Polygon failed (META): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/META/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for META
+   Polygon failed (MSFT): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/MSFT/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for MSFT
+   Fetched 730 bars | close $416.03
+   yfinance OK for MSFT
+   Prefetched MSFT: 730 bars saved
+   Fetched 730 bars | close $612.34
+   yfinance OK for META
+   Prefetched META: 730 bars saved
+✅ Prefetch — 8/8 tickers cached
+
+============================================================
+▶  DataScout → AAPL
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\AAPL_analysis.md
+Analysed AAPL
+✅ DataScout → AAPL — done
+
+============================================================
+▶  DataScout → TSLA
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\TSLA_analysis.md
+Analysed TSLA
+✅ DataScout → TSLA — done
+
+============================================================
+▶  DataScout → NVDA
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\NVDA_analysis.md
+Analysed NVDA
+✅ DataScout → NVDA — done
+
+============================================================
+▶  DataScout → AMD
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\AMD_analysis.md
+Analysed AMD
+✅ DataScout → AMD — done
+
+============================================================
+▶  DataScout → GOOGL
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\GOOGL_analysis.md
+Analysed GOOGL
+✅ DataScout → GOOGL — done
+
+============================================================
+▶  DataScout → MSFT
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\MSFT_analysis.md
+Analysed MSFT
+✅ DataScout → MSFT — done
+
+============================================================
+▶  DataScout → AMZN
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\AMZN_analysis.md
+Analysed AMZN
+✅ DataScout → AMZN — done
+
+============================================================
+▶  DataScout → META
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\07-Research\META_analysis.md
+Analysed META
+✅ DataScout → META — done
+
+============================================================
+▶  NewsScout → scan_news
+============================================================
+
+============================================================
+▶  SectorScout → scan_sectors
+============================================================
+Fetching XLK...
+   Polygon failed (XLK): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLK/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLK
+   Fetched 90 bars | close $185.14
+   yfinance OK for XLK
+Fetching XLF...
+   Polygon failed (XLF): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLF/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLF
+   Fetched 90 bars | close $51.85
+   yfinance OK for XLF
+Fetching XLE...
+   Polygon failed (XLE): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLE/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLE
+   Fetched 90 bars | close $57.85
+   yfinance OK for XLE
+Fetching XLV...
+   Polygon failed (XLV): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLV/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLV
+   Fetched 90 bars | close $148.51
+   yfinance OK for XLV
+Fetching XLP...
+   Polygon failed (XLP): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLP/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLP
+   Fetched 90 bars | close $83.63
+   yfinance OK for XLP
+Fetching XLY...
+   Polygon failed (XLY): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLY/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLY
+   Fetched 90 bars | close $119.45
+   yfinance OK for XLY
+Fetching XLI...
+   Polygon failed (XLI): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLI/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLI
+   Fetched 90 bars | close $174.30
+   yfinance OK for XLI
+Fetching XLB...
+   Polygon failed (XLB): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLB/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLB
+   Fetched 90 bars | close $50.99
+   yfinance OK for XLB
+Fetching XLU...
+   Polygon failed (XLU): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLU/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLU
+   Fetched 90 bars | close $45.33
+   yfinance OK for XLU
+Fetching XLRE...
+   Polygon failed (XLRE): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/XLRE/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for XLRE
+   Fetched 90 bars | close $44.71
+   yfinance OK for XLRE
+Fetching XLC...
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\05-News\NEWS_2026-05-26.md
+News scan complete
+✅ NewsScout → scan_news — done
+   Fetched 499 bars | close $115.46
+   Polygon OK for XLC
+   Sector snapshot saved (11 sectors)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\00-Daily\sectors_2026-05-26.md
+Sector scan complete
+✅ SectorScout → scan_sectors — done
+
+============================================================
+▶  RegimeClassifier
+============================================================
+Fetching SPY...
+
+============================================================
+▶  VolatilityAgent
+============================================================
+Fetching ^VIX...
+   yfinance fallback for ^VIX
+   Fetched 499 bars | close $745.64
+   Polygon OK for SPY
+Fetching QQQ...
+   Fetched 499 bars | close $717.54
+   Polygon OK for QQQ
+Fetching ^VIX...
+   yfinance fallback for ^VIX
+   Fetched 243 bars | close $17.01
+   yfinance OK for ^VIX
+   Volatility snapshot saved — VIX: 17.010000228881836
+   Fetched 174 bars | close $17.01
+   yfinance OK for ^VIX
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\00-Daily\volatility_2026-05-26.md
+VolatilityAgent analysis complete
+✅ VolatilityAgent — done
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\00-Daily\regime_2026-05-26.md
+✅ RegimeClassifier — done
+
+============================================================
+▶  SentimentAgent
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\00-Daily\sentiment_2026-05-26.md
+✅ SentimentAgent — done
+
+============================================================
+▶  MarketAnalyst
+============================================================
+Fetching SPY...
+   Polygon failed (SPY): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/SPY/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for SPY
+   Fetched 60 bars | close $750.59
+   yfinance OK for SPY
+Fetching QQQ...
+   Polygon failed (QQQ): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/QQQ/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for QQQ
+   Fetched 60 bars | close $730.28
+   yfinance OK for QQQ
+Fetching IWM...
+   Polygon failed (IWM): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/IWM/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for IWM
+   Fetched 60 bars | close $290.51
+   yfinance OK for IWM
+Fetching DIA...
+   Polygon failed (DIA): HTTPSConnectionPool(host='api.polygon.io', port=443): Max retries exceeded with url: /v2/aggs/ticker/DIA/range/1/day/2024-05-26/2026-05-26?limit=50000 (Caused by ResponseError('too many 429 error responses'))
+   yfinance fallback for DIA
+   Fetched 60 bars | close $505.25
+   yfinance OK for DIA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\00-Daily\daily_2026-05-26.md
+✅ MarketAnalyst — done
+
+============================================================
+▶  Optimizer → run_optimization_loop
+============================================================
+   Optimizing AAPL...
+   Optimizer: loaded AAPL from CSV (499 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AAPL_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on AAPL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AAPL_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on AAPL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AAPL_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on AAPL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AAPL_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on AAPL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AAPL_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on AAPL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_AAPL_20260526.md
+   Optimizing TSLA...
+   Optimizer: loaded TSLA from CSV (499 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\TSLA_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on TSLA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\TSLA_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on TSLA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\TSLA_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on TSLA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\TSLA_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on TSLA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\TSLA_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on TSLA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_TSLA_20260526.md
+   Optimizing NVDA...
+   Optimizer: loaded NVDA from CSV (499 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\NVDA_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on NVDA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\NVDA_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on NVDA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\NVDA_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on NVDA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\NVDA_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on NVDA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\NVDA_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on NVDA
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_NVDA_20260526.md
+   Optimizing AMD...
+   Optimizer: loaded AMD from CSV (499 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMD_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on AMD
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMD_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on AMD
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMD_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on AMD
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMD_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on AMD
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMD_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on AMD
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_AMD_20260526.md
+   Optimizing GOOGL...
+   Optimizer: loaded GOOGL from CSV (499 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\GOOGL_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on GOOGL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\GOOGL_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on GOOGL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\GOOGL_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on GOOGL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\GOOGL_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on GOOGL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\GOOGL_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on GOOGL
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_GOOGL_20260526.md
+   Optimizing MSFT...
+   Optimizer: loaded MSFT from CSV (730 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\MSFT_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on MSFT
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\MSFT_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on MSFT
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\MSFT_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on MSFT
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\MSFT_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on MSFT
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\MSFT_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on MSFT
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_MSFT_20260526.md
+   Optimizing AMZN...
+   Optimizer: loaded AMZN from CSV (730 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMZN_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on AMZN
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMZN_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on AMZN
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMZN_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on AMZN
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMZN_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on AMZN
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\AMZN_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on AMZN
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_AMZN_20260526.md
+   Optimizing META...
+   Optimizer: loaded META from CSV (730 bars)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\META_SMA_Crossover_WF_20260526.md
+Backtest complete: SMA_Crossover on META
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\META_RSI_MeanReversion_WF_20260526.md
+Backtest complete: RSI_MeanReversion on META
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\META_MACD_Momentum_WF_20260526.md
+Backtest complete: MACD_Momentum on META
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\META_BB_Reversion_WF_20260526.md
+Backtest complete: BB_Reversion on META
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\META_EMA_Momentum_WF_20260526.md
+Backtest complete: EMA_Momentum on META
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\04-Backtests\OPTIMIZED_META_20260526.md
+✅ Optimizer → run_optimization_loop — done
+
+============================================================
+▶  Optimizer → rank_strategies
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\06-Playbooks\STRATEGY_RANKING_20260526.md
+Strategy ranking complete
+✅ Optimizer → rank_strategies — done
+
+============================================================
+▶  Strategist → refine SMA_Crossover
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\02-Strategies\SMA_Crossover.md
+✅ Strategist → refine SMA_Crossover — done
+
+============================================================
+▶  MetaEvaluator → evaluate_performance
+============================================================
+
+============================================================
+▶  Critic → review SMA_Crossover.md
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\06-Playbooks\META_EVAL_20260526.md
+✅ MetaEvaluator → evaluate_performance — done
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\08-Logs\CRITIC_REVIEW_SMA_Crossover.md
+✅ Critic reviewed SMA_Crossover.md
+✅ Critic → review SMA_Crossover.md — done
+
+============================================================
+▶  SignalGenerator → generate_signals
+============================================================
+   Checking earnings calendar ...
+   No earnings within 5 days — no flags
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\03-Trade-Journal\signals_2026-05-26.md
+✅ SignalGenerator → generate_signals — done
+
+============================================================
+▶  RiskGuardian → daily_risk_sweep
+============================================================
+   RiskGuardian: checking earnings for ['AAPL', 'TSLA', 'NVDA', 'AMD', 'GOOGL', 'MSFT', 'AMZN', 'META']
+   RiskGuardian: account equity = $100,029.21 (max risk/trade = $1,000.29)
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\06-Playbooks\RISK_SWEEP_20260526.md
+📲 Telegram alert sent
+✅ Risk sweep completed
+✅ RiskGuardian → daily_risk_sweep — done
+
+============================================================
+▶  Critic → review signals_2026-05-26.md
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\08-Logs\CRITIC_REVIEW_signals_2026-05-26.md
+✅ Critic reviewed signals_2026-05-26.md
+✅ Critic → review signals_2026-05-26.md — done
+
+============================================================
+▶  Critic → review RISK_SWEEP_20260526.md
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\08-Logs\CRITIC_REVIEW_RISK_SWEEP_20260526.md
+✅ Critic reviewed RISK_SWEEP_20260526.md
+✅ Critic → review RISK_SWEEP_20260526.md — done
+
+============================================================
+▶  ExecutionAgent → execute_approved_signals
+============================================================
+   Signals file:  signals_2026-05-26.md
+   Risk sweep:    RISK_SWEEP_20260526.md
+   ✅ RiskGuardian APPROVED: GOOGL
+   Signals with prices: ['GOOGL']
+   Approved tickers:    ['GOOGL']
+   Paper equity: $100,029.24
+   🔴 Market CLOSED — orders queue for 2026-05-27 09:30:00
+   📐 GOOGL BUY × 13 | entry=$382.97  stop=$368.14  target=$412.65 | risk=$192.79  R:R=2.0:1
+   ✅ GOOGL BUY × 13 @ $382.97 [stop=$368.14  target=$412.65] — OrderStatus.ACCEPTED
+   📲 Telegram alert sent
+   📲 Telegram alert sent
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\03-Trade-Journal\EXECUTED_20260526.md
+   📝 Execution log saved: EXECUTED_20260526.md
+✅ ExecutionAgent → execute_approved_signals — done
+
+============================================================
+▶  PnLTracker → track_pnl
+============================================================
+✅ Vault updated: C:\Users\Dough\Desktop\Trading Brain\vault\06-Playbooks\PNL_REPORT_20260526.md
+   Portfolio snapshot saved
+   PnL report generated
+✅ PnLTracker → track_pnl — done
+
+==========================================================================================
+OK   DAILY LOOP COMPLETE
+   17/17 steps passed  |  482s elapsed  (8m 2s)
+   Log saved to: C:\Users\Dough\Desktop\Trading Brain\logs\daily_20260526_1412.log
+   Open vault/ in Obsidian to review results
+==========================================================================================
